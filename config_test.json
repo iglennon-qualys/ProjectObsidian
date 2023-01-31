@@ -1,0 +1,23 @@
+{
+  "proxy_details": "https://proxy.local:1080",
+
+  "source": {
+    "api_url": "https://qualysapi.qualys.com",
+    "keys": {
+      "Source Key 1 Name": "Source Key 1 UUID",
+      "Source Key 2 Name": "Source Key 2 UUID"
+    }
+  },
+  "target": {
+    "api_url": "https://qualysapi.qualys.com",
+    "keys": {
+      "Target Key 1 Name": "Target Key 1 UUID",
+      "Target Key 2 Name": "target Key 2 UUID"
+    }
+  },
+  "activation_key_map": {
+    "Source Key 1 Name": "Target Key 1 Name",
+    "Source Key 2 Name": "Target Key 2 Name"
+  }
+}
+
